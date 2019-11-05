@@ -1,0 +1,101 @@
+
+<nav id="navbar">
+  <header>Main header is here</header>
+  <ul>
+    <li><a class="nav-link" href="#First link">First link</a></li>
+    <li>
+      <a class="nav-link" href="#Second link">Second link</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Third link">Third link</a>
+    </li>
+    <li><a class="nav-link" href="Forth link">Forth link</a></li>
+    <li><a class="nav-link" href="#Fifth link">Fifth link</a></li>
+    <li>
+      <a class="nav-link" href="#Sixth link">Sixth link</a>
+    </li>
+    <li><a class="nav-link" href="#Seventh link">Seventh link</a></li>
+    <li><a class="nav-link" href="#Eaith link">Eaith link</a></li>
+    <li><a class="nav-link" href="#Nineth link">Nineth link</a></li>
+    <li><a class="nav-link" href="#Tenth link">Tenth link</a></li>
+    <li>
+      <a class="nav-link" href="#eleventh link">eleventh link</a>
+    </li>
+    <li><a class="nav-link" href="#twelwth link">twelwth</a></li>
+    <li>
+      <a class="nav-link" href="#thirteenth link"
+        >Thirteenth link</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Forteenth">Forteenth link</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="Main section" id="First link"><header>First link</header>
+    <article><p>Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text Plain text</p></article>
+</main>
+
+<style>
+html,
+body {
+  min-width: 290px;
+  color: E0E2FE;
+  background-color: #E0FEE8;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+#navbar ul {
+  height: 70%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+#main-doc header {
+  text-align: left;
+  margin: 0;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+section article {
+  margin: 15px;
+}
+</style>
